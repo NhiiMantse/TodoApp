@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(54, 147, 160);
+}
+.row{
+    padding: 16px 32px;
+    background-color: white;
+    min-height: 360px;
+    border-radius: 8PX;
+    box-shadow: 0 2px 4px rgb(44, 5, 117);
+}
+
+.row .first{
+    margin-bottom: 16px;
+}
+
+.row .first button{
+height: 15px;
+width: 15px;
+font-size: 16px;
+background-color: royalblue;
+border: none;
+outline: none;
+border-radius: 50%;
+
+}
+.row .second{
+    min-height: 320px;
+    background-color: white;
+}
+
+.todo-item{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 16px;
+}
